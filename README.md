@@ -42,6 +42,7 @@ O **Report Bullying** é um aplicativo mobile desenvolvido com **React Native** 
 - MariaDB ou MySQL
 - Expo CLI (se estiver usando Expo)
 - Conta na OpenAI com chave de API válida
+- .ENV
 
 ---
 
@@ -72,3 +73,19 @@ php artisan migrate
 
 # 7. Inicie o servidor
 php artisan serve
+
+# 1. Navegue até a pasta do app mobile
+cd ../mobile
+
+# 2. Instale as dependências
+npm install
+
+# 3. Configure o arquivo de ambiente ou edite os endpoints no código (por ex. `BASE_URL` do backend)
+
+# 4. Inicie o projeto com Expo ou React Native CLI
+npm start
+# Android
+npm run android
+
+# iOS (Mac apenas)
+npm run ios
